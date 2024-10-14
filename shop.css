@@ -1,0 +1,141 @@
+   /*aa.html*/
+   /* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+    }
+
+    h3{
+        padding:1px;
+        font-size:20px;
+    }
+    header {
+        background-color: #111;
+        color: #fff;
+        padding:5px;
+        box-shadow: 0 2px 5px rgb(238, 233, 233);
+       
+    }
+
+    /* Banner */
+    .banner {
+        background-color: #f4f4f4;
+        padding: 50px;
+        text-align: center;
+    }
+    .hero {
+        background: #007bff; /* Hero section background color */
+        color: white; /* Text color */
+        padding: 50px 20px; /* Top/bottom and left/right padding */
+        text-align: center; /* Center-align text */
+    }
+    .d{
+        border: 10px;
+        color :red;
+    }
+    .banner h1 {
+        margin: 0;
+        font-size: 2.5em;
+        color: #333;
+    }
+
+    /* Product Grid */
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .product-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        padding: 15px;
+        width: 220px;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .product-card h3 {
+        font-size: 18px;
+        margin: 10px 0;
+        color: #333;
+    }
+
+    .product-card p {
+        color: #888;
+        font-size: 14px;
+    }
+
+    .product-card button {
+        background-color: #28a745;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .product-card button:hover {
+        background-color: #218838;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #2c3338;
+        color: #fff;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    /* Total Button */
+    .total-button {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .total-button button {
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    .total-button button:hover {
+        background-color: #0056b3;
+    }
+
+    /* Virus and Hack Sections */
+    .virus-warning, .hack-warning {
+        text-align: center;
+        font-weight: bold;
+        color: red;
+        margin: 20px 0;
+    }
+
+    hr {
+        border: 1px solid #ccc;
+        margin: 20px 0;
+    }
